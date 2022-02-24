@@ -26,8 +26,9 @@
             ['dev_type','iso_input'].forEach(id=>{
                 document.getElementById(id+index).disabled=false
             })
-            console.log("Unlock_H11_Virtual_Media: Tried to unlock.Check does it work.")
-        })}else{
-            console.err("Unlock_H11_Virtual_Media: Not supported,please confirm your BMC version, or leave a issue.")
-        }
+        })
+        console.log("Unlock_H11_Virtual_Media: Tried to unlock.Check does it work.")
+    }else{
+         console.err("Unlock_H11_Virtual_Media: Not supported,please confirm your BMC version, or leave a issue.")
+    }
 })();
